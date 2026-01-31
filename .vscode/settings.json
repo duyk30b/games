@@ -1,5 +1,7 @@
 {
-    "cSpell.words": [
-        "emulatorjs"
-    ]
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.allowForcePush": true,
+  "explorer.compactFolders": false,
+  "cSpell.words": ["emulatorjs"]
 }

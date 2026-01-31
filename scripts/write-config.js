@@ -4,7 +4,7 @@ const time = new Date().toISOString();
 console.log("🚀 ~ Write config with: time =", time);
 
 fs.writeFileSync(
-  "./scripts/config.js",
+  "./docs/config.js",
   `const CONFIG = {
   version: "${time}",
 }

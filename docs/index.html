@@ -461,8 +461,20 @@
             },
             1: {
               0: {
-                value: "Insert",
+                value: "numpad 2",
                 value2: "BUTTON_2",
+              },
+              1: {
+                value: "numpad 5",
+                value2: "BUTTON_4",
+              },
+              2: {
+                value: "add",
+                value2: "SELECT",
+              },
+              3: {
+                value: "enter",
+                value2: "START",
               },
               4: {
                 value: "up arrow",
@@ -481,8 +493,12 @@
                 value2: "DPAD_RIGHT",
               },
               8: {
-                value: "decimal point",
+                value: "numpad 3",
                 value2: "BUTTON_1",
+              },
+              9: {
+                value: "numpad 6",
+                value2: "BUTTON_3",
               },
             },
             2: {},
@@ -542,6 +558,14 @@
                 value: "numpad 2",
                 value2: "BUTTON_4",
               },
+              2: {
+                value: "space",
+                value2: "SELECT",
+              },
+              3: {
+                value: "enter",
+                value2: "START",
+              },
               4: {
                 value: "up arrow",
                 value2: "DPAD_UP",
@@ -595,7 +619,7 @@
       window.addEventListener("hashchange", router);
       router();
     </script>
-    <script src="./scripts/config.js"></script>
+    <script src="./config.js"></script>
     <script>
       const configVersionElement = document.getElementById("config_version");
       configVersionElement.innerText = CONFIG.version;

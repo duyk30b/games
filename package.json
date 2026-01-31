@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "demo": "serve --single",
+    "demo": "serve docs --single",
     "write-config": "node ./scripts/write-config.js",
     "build": "npm run write-config"
   },
