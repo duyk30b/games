@@ -1,0 +1,16 @@
+{
+  "name": "games",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "demo": "serve --single",
+    "write-config": "node ./scripts/write-config.js",
+    "build": "npm run write-config"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "serve": "^14.2.5"
+  }
+}
